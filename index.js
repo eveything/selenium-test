@@ -22,4 +22,4 @@ driver.get("http://www.bing.com/?mkt=zh-CN&mkt=zh-CN");
 driver.findElement({css: "#sb_form_q"}).sendKeys("testcase")
 driver.findElement({css: "#sb_form_go"}).click();
 
-
+driver.quit();
